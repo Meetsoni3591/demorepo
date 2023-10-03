@@ -1,0 +1,48 @@
+﻿@model WebApplication6.Models.UserT
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+ <link rel="stylesheet" href="~/css/style.css" />
+<hr />
+<div class="login-box">
+    <div class="col-md-8">
+        <form asp-action="Register">
+            <div asp-validation-summary="ModelOnly"></div>
+            <div class="form-group">
+                <input asp-for="Name" />
+                <label asp-for="Name">Name</label>
+               
+            </div>
+            &nbsp;
+            <div class="form-group">
+                 <input asp-for="Email" />
+                <label asp-for="Email">Email</label>
+          
+            </div>
+            &nbsp;
+            <div class="form-group">
+                <input asp-for="Password" />
+                <label asp-for="Password">Password</label>
+               
+            </div>
+            &nbsp;
+            <div class="login-button">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <input type="submit" value="Register" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+@*    <a asp-action="Index">Back to List</a>*@
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

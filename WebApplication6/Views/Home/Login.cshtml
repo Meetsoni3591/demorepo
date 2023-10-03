@@ -1,0 +1,66 @@
+﻿@model WebApplication6.Models.UserT
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+
+    <link rel="stylesheet" href="~/css/style.css" />
+<hr />
+<div class="login-box">
+    <div class="col-md-8">
+        @{
+            if (TempData["succes"] != null)
+            {
+                <p style="color:white;">@TempData["succes"]</p>   /// this for succes login 
+            }
+
+        }
+        @{
+            if (ViewBag.Message != null)
+            { 
+                <p style="color:whitesmoke;">@ViewBag.Message</p>      //this is for login failed
+            }
+        }
+        <form asp-action="Login">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <input asp-for="Email" />
+                <label asp-for="Email">Email</label>
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            &nbsp;
+            <div class="form-group">
+                <input asp-for="Password" />
+                <label asp-for="Password">Password</label>
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            &nbsp;
+            <div class="login-button">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <input type="submit" value="Login" class="btn btn-primary"/> 
+            </div>
+        </form>
+        <label style="color:white" >Didn't have a account Register Here </label>
+        <form asp-action="Register">
+            <div class="login-button">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <input type="submit" value="Register" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+   @* <a asp-action="Index">Back to List</a>*@
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
