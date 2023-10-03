@@ -11,21 +11,18 @@
         <form asp-action="Register">
             <div asp-validation-summary="ModelOnly"></div>
             <div class="form-group">
-                <input asp-for="Name" />
+                <input id="name" asp-for="Name" type="text" required=""/>
                 <label asp-for="Name">Name</label>
-               
             </div>
             &nbsp;
             <div class="form-group">
-                 <input asp-for="Email" />
+                 <input id="email" asp-for="Email" type="email" required=""/>
                 <label asp-for="Email">Email</label>
-          
             </div>
             &nbsp;
             <div class="form-group">
-                <input asp-for="Password" />
+                <input  id="password" asp-for="Password" type="password" required="" />
                 <label asp-for="Password">Password</label>
-               
             </div>
             &nbsp;
             <div class="login-button">
