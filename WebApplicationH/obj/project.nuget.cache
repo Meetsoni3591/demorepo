@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "OERRRRVCGaFb6YUrqp0pPqnu4suTB4qM9OM2K6j413BwLQqRHyFvPiArTMYYeRhlVEq0vnQ72a1yPwHT9NXDjw==",
+  "success": true,
+  "projectFilePath": "F:\\Git\\demorepo\\WebApplicationH\\WebApplicationH.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Meet\\.nuget\\packages\\hangfire\\1.8.5\\hangfire.1.8.5.nupkg.sha512",
+    "C:\\Users\\Meet\\.nuget\\packages\\hangfire.aspnetcore\\1.8.5\\hangfire.aspnetcore.1.8.5.nupkg.sha512",
+    "C:\\Users\\Meet\\.nuget\\packages\\hangfire.core\\1.8.5\\hangfire.core.1.8.5.nupkg.sha512",
+    "C:\\Users\\Meet\\.nuget\\packages\\hangfire.netcore\\1.8.5\\hangfire.netcore.1.8.5.nupkg.sha512",
+    "C:\\Users\\Meet\\.nuget\\packages\\hangfire.sqlserver\\1.8.5\\hangfire.sqlserver.1.8.5.nupkg.sha512",
+    "C:\\Users\\Meet\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.0.0\\microsoft.extensions.configuration.abstractions.3.0.0.nupkg.sha512",
+    "C:\\Users\\Meet\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.0.0\\microsoft.extensions.dependencyinjection.abstractions.3.0.0.nupkg.sha512",
+    "C:\\Users\\Meet\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.0.0\\microsoft.extensions.fileproviders.abstractions.3.0.0.nupkg.sha512",
+    "C:\\Users\\Meet\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\3.0.0\\microsoft.extensions.hosting.abstractions.3.0.0.nupkg.sha512",
+    "C:\\Users\\Meet\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.0\\microsoft.extensions.logging.abstractions.3.0.0.nupkg.sha512",
+    "C:\\Users\\Meet\\.nuget\\packages\\microsoft.extensions.primitives\\3.0.0\\microsoft.extensions.primitives.3.0.0.nupkg.sha512",
+    "C:\\Users\\Meet\\.nuget\\packages\\newtonsoft.json\\11.0.1\\newtonsoft.json.11.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
